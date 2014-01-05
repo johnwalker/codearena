@@ -37,12 +37,12 @@
    will be the first one, but the service won't be tied to
    Github. That said, Github will be supported first.
 ** Expected Dependencies
-   Clojure
-   ClojureScript
-   Compojure
-   Friend 
-   Hiccup
-   MySQL
-   Ring
-   Tentacles (Github)
-   
+   + Clojure
+   + ClojureScript
+   + Compojure
+   + Friend 
+   + Hiccup
+   + MySQL
+   + Ring
+   + Tentacles (Github)
+
