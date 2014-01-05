@@ -1,0 +1,48 @@
+* Codearena
+** Objective
+   Create a site for finding teams for tackling well-defined problem.
+
+   Project maintainers and participants can use this to find teams. In
+   general, these should be entry level problems. The long-term goal
+   is for project maintainers to be able to find people that they can
+   work with. 
+
+   Participants will receive comments from other (hopefully) technical
+   people. They'll also find projects that they can work on in the
+   open source with amenable communities.
+** Site
+*** Index
+    + Login form
+    + Queue 
+      + Algorithm schedules teams and assignments. Tries to get a wide
+        range of people on one team. Sends email invitation when
+        finished with information from leader.
+*** Process Information Page
+    + Login form
+    + General site information
+*** User Profile
+    View comments: public and anonymized to specified degree. Projects
+    you've worked on, etc.
+** Queueing
+   Regular members can request 
+   + Languages :: Programming language or spoken 
+   + Type of Project :: Compiler, Webthing, etc.
+   + Time of Day :: Match with when a team leader is available
+** After the Queue
+   Each team is led by the owner of a repository. They do
+   whatever. Leader does an evaluation of the users. Group members can
+   report abuse towards leader, but aren't allowed to do much else.
+** Github API
+   Err, ignore the API for now. It parallels another operation. This
+   will be the first one, but the service won't be tied to
+   Github. That said, Github will be supported first.
+** Expected Dependencies
+   Clojure
+   ClojureScript
+   Compojure
+   Friend 
+   Hiccup
+   MySQL
+   Ring
+   Tentacles (Github)
+   
